@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name           Discourse Editor Monospace
+@namespace      cx.evermeet
+@version        0.0.1
+@license        MIT
+@description    A new userstyle
+@author         Helmut K. C. Tessarek <tessarek@evermeet.cx> (https://evermeet.cx)
+
+@homepageURL    https://github.com/tessus/discourse-editor-monospace
+@supportURL     https://github.com/tessus/discourse-editor-monospace/issues
+@updateURL      https://raw.githubusercontent.com/tessus/discourse-editor-monospace/master/ded-mono.user.css
+==/UserStyle== */
+@-moz-document regexp("^https?:\\/\\/(discourse|forum|help)\\..*") {
+	.d-editor-input.ember-text-area {
+		font-size: 13px;
+		font-weight: 400;
+		font-family: "Menlo", "Consolas", "DejaVu Sans Mono", "Lucida Console", "IBM Plex Mono", "Monaco", monospace, monospace;
+	}
+}
