@@ -6,9 +6,9 @@ It's a user css that sets a monospace font for the editor in Discourse.
 
 ## Step 1 (if not already installed Stylus browser extension)
 
-[![image](https://img.shields.io/badge/Install-Stylus%20Chrome%20Extension-116b59.svg?longCache=true&amp;style=for-the-badge)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/)
+[![image](https://img.shields.io/badge/Install-Stylus%20Chrome%20Extension-116b59.svg)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/)
 
-[![image](https://img.shields.io/badge/Install-Stylus%20Firefox%20Extension-116b59.svg?longCache=true&amp;style=for-the-badge)](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/)
+[![image](https://img.shields.io/badge/Install-Stylus%20Firefox%20Extension-116b59.svg)](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/)
 
 ## Step 2 (Warning: Editing the theme file will disable auto update)
 
