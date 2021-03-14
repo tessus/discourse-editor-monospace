@@ -1,19 +1,24 @@
 /* ==UserStyle==
 @name           Discourse Editor Monospace
 @namespace      cx.evermeet
-@version        0.0.2
+@version        1.0.0
 @license        MIT
-@description    A new userstyle
+@description    Monospace font for the editor in Discourse
 @author         Helmut K. C. Tessarek <tessarek@evermeet.cx> (https://evermeet.cx)
 
 @homepageURL    https://github.com/tessus/discourse-editor-monospace
 @supportURL     https://github.com/tessus/discourse-editor-monospace/issues
 @updateURL      https://raw.githubusercontent.com/tessus/discourse-editor-monospace/master/ded-mono.user.css
+
+@preprocessor   default
+@var            text editor-font-family "Font family" '"Menlo", "Consolas", "DejaVu Sans Mono", "Lucida Console", "IBM Plex Mono", "Monaco", monospace, monospace'
+@var            text editor-font-size "Font size" 13px
+@var            range editor-font-weight "Font weight" [400, 100, 900, 100]
 ==/UserStyle== */
 @-moz-document regexp("^https?:\\/\\/(discourse|forum|help)\\..*") {
 	.d-editor-input.ember-text-area {
-		font-size: 13px;
-		font-weight: 400;
-		font-family: "Menlo", "Consolas", "DejaVu Sans Mono", "Lucida Console", "IBM Plex Mono", "Monaco", monospace, monospace;
+		font-size:   var(--editor-font-size)   !important;
+		font-weight: var(--editor-font-weight) !important;
+		font-family: var(--editor-font-family) !important;
 	}
 }
