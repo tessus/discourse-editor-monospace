@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Discourse Editor Monospace
 @namespace      cx.evermeet
-@version        1.0.0
+@version        1.0.1
 @license        MIT
 @description    Monospace font for the editor in Discourse
 @author         Helmut K. C. Tessarek <tessarek@evermeet.cx> (https://evermeet.cx)
@@ -15,7 +15,7 @@
 @var            text editor-font-size "Font size" 13px
 @var            range editor-font-weight "Font weight" [400, 100, 900, 100]
 ==/UserStyle== */
-@-moz-document regexp("^https?:\\/\\/(discourse|forum|help)\\..*") {
+@-moz-document regexp("^https?:\\/\\/(discourse|forum|help|meta)\\..*") {
 	.d-editor-input.ember-text-area {
 		font-size:   var(--editor-font-size)   !important;
 		font-weight: var(--editor-font-weight) !important;
